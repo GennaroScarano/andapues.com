@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.andapues.com/</title>
+  <link>https://www.andapues.com/</link>
+
+<item>
+     <link>https://www.andapues.com/</link>
+     <title>Gennaro Scarano || UI Developer || tailwind.css</title>
+     <description>Designer, UI Developer, Frontend, skills, html5, css3, tailwind.css, Javascript, Books, UI Developer, Skills, Brand, digital, marketing, strategy</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.andapues.com/skills/</link>
+     <title>Books UI/UX Skills; GSAP Parallax Theme 🚀</title>
+     <description>Designer, UI/UX, Frontend, skills, html5, css3, Javascript, Parallax, Books, Books UI/UX Skills, Brand, digital, marketing, strategy</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.andapues.com/skills.html</link>
+     <title>My Skills || UI Developer || tailwind.css</title>
+     <description>Designer, UI Developer, Frontend, skills, html5, css3, Javascript, tailwind.css, Books, Book UI Developer, Skills, tailwind.css, bootstrap.css, Brand, digital, marketing, strategy</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

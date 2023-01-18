@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+html {
+  text-rendering: optimizeSpeed;
+  font-family: "Russo One", sans-serif;
+  line-height: inherit }
+
+[type=button], [type=reset], [type=submit], button {
+  font-family: "Russo One", sans-serif }
+
+a[disabled], button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed }
+
+#canvas {z-index: -1}
+
+h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem }
+
+.text-3d {
+  text-shadow: 0 1px 0 rgb(190,190,190), 0 2px 0 rgb(185,185,185), 0 3px 0 rgb(180,180,180), 0 4px 0 rgb(175,175,175), 0 5px 0 rgb(170,170,170), 0 6px 0 rgb(165,165,165), 0 7px 0 rgb(160,160,160), 0 1px 5px rgba(0,0,0,.05), 0 3px 5px rgba(0,0,0,.10), 0 5px 10px rgba(0,0,0,.15), 0 7px 10px rgba(0,0,0,.20), 0 10px 15px rgba(0,0,0,.25);
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out }
+
+#iso {
+  font-family: "Russo One", sans-serif;
+  font-size: 4em;
+  letter-spacing: 2px;
+  z-index: -6;
+  top: 40%;
+  -webkit-transform: rotate(-28deg) skew(25deg);
+     -moz-transform: rotate(-28deg) skew(25deg);
+      -ms-transform: rotate(-28deg) skew(25deg);
+       -o-transform: rotate(-28deg) skew(25deg);
+          transform: rotate(-28deg) skew(25deg)}
+  #iso:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    color: rgba(0,0,0,0.3);
+    text-shadow: none;
+    filter: blur(8px);
+    z-index: -1 }
+
+#logocontainer {
+  width: 650px;
+  height: 650px}
+
+#css3 {
+  top: 50%;
+  left: 20%;
+  width: 15%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+     -moz-transform-origin: center center;
+      -ms-transform-origin: center center;
+       -o-transform-origin: center center;
+          transform-origin: center center}
+
+#html5 {
+  top: 26%;
+  left: 30%;
+  width: 15%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+#sass {
+  top: 10%;
+  left: 50%;
+  width: 15%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+#js {
+  top: 26%;
+  left: 70%;
+  width: 15%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+#tailwind {
+  top: 50%;
+  left: 80%;
+  width: 15%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+#Retina1, #Retina2 {
+  animation-name: blink;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: 50%;
+     -moz-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+       -o-transform-origin: 50%;
+          transform-origin: 50%}
+
+@keyframes blink {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  1% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+  2% {
+    transform: scaleX(1) scaleY(1);
+  }
+  60% {
+    transform: scaleX(1) scaleY(1);
+  }
+  61% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+  62% {
+    transform: scaleX(1) scaleY(1);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+#gennaro {
+  z-index: -5;
+  top: 45%;
+  left: 50%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+#retina {
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  z-index: -4;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%)}
+
+/* Smartphones (responsive) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 320px) and (max-width: 786px) {
+	#logocontainer {
+    width: 500px;
+    height: 500px;
+  }
+  #iso {
+    right: 50px;
+  }
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+html {
+  text-rendering: optimizeSpeed;
+  font-family: "Russo One", sans-serif;
+  line-height: inherit }
+
+header {
+  display: flex }
+
+[type=button], [type=reset], [type=submit], button {
+  font-family: "Russo One", sans-serif }
+
+main {
+  pointer-events: none }
+
+h1, h2, h3 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 15px;
+  color: #212121;
+  text-shadow: 0.5px -0.5px 0.5px #fff, -1px 1px #fff, -2px 2px #fff, -3px 3px #fff, -4px 4px #fff, -5px 5px #000 }
+
+h2, h3 {
+  font-size: 35px}
+  h2 > span {
+    color: #EC456C; font-size: 25px }
+
+h3 {
+  text-shadow: none;
+  height: 10vh }
+
+  .text-changer {
+    filter: url(#threshold) blur(0.6px) }
+
+#text1,
+#text2 {
+  -webkit-font-smoothing: antialiased;
+  position: absolute }
+
+.transition-container {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex }
+  .transition-container span {
+    position: relative }
+  .transition-container.from-left {
+    flex-direction: column }
+  .transition-container.from-left span {
+    background: #4f5bff;
+    height: 100%;
+    width: 0% }
+  .transition-container.from-top span {
+    background: #aa4fff;
+    width: 100%;
+    height: 0% }
+  
+
+
